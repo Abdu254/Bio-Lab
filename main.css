@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1920px;
+    width: 100%;
+    background: #f3f4f6;
+}
+
+header {
+    margin: auto;
+}
+
+.logo {
+    margin-top: 66px;
+    margin-left: 140px;
+    margin-right: 61px;
+}
+
+.logo img {
+    width: 206px;
+    height: 55px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+    margin-top: 81px;
+    margin-left: 61px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-right {
+    margin-top: 0;
+    margin-right: 0;
+    background: url(./images/right-hader-blue.png);
+    width: 700px;
+    height: 1000px;
+}
+
+.header-right img {
+    margin-top: 72px;
+    margin-left: 416px;
+}
+
+.header-right span {
+    position: absolute;
+    margin-top: 80px;
+    margin-right: 150px;
+    margin-left: 28px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    gap: 28px;
+}
+
+.img2 {
+    position: absolute;
+    width: 800px;
+    height: 550px;
+    right: 264px;
+    top: 240px;
+    box-shadow: 20px 30px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.withus a {
+    position: absolute;
+    top: 310px;
+    left: 140px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 25px;
+    color: #1d6dc3;
+}
+
+.withus h1 {
+    position: absolute;
+    left: 140px;
+    top: 345px;
+    width: 529px;
+    height: 170px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 70px;
+    color: #000;
+}
+
+.withus p {
+    position: absolute;
+    width: 657px;
+    height: 113px;
+    left: 143px;
+    top: 525px;
+    font-family: "Circe", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+}
+
+.withus button {
+    position: absolute;
+    top: 666px;
+    left: 144px;
+    border-radius: 50px;
+    width: 200px;
+    height: 55px;
+    box-shadow: -15px 20px 50px 0 rgba(29, 104, 191, 0.3);
+    background: #1d68bf;
+    border: none;
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+}
+
+.withus .btn-white {
+    position: absolute;
+    top: 666px;
+    left: 392px;
+    border-radius: 50px;
+    width: 200px;
+    height: 55px;
+    box-shadow: -15px 20px 50px 0 rgba(29, 104, 191, 0.3);
+    background: #fff;
+    border: none;
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 15px;
+    color: #1d68bf;
+}
+
+.container {
+    max-width: 1594px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.main a {
+    display: block;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 25px;
+    color: #1d6dc3;
+    margin-bottom: 24px;
+}
+
+.main h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 55px;
+}
+
+.companies {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 39px;
+}
+
+.next-div {
+    margin-bottom: 119px;
+}
+
+.next-div .left {
+    margin-left: 650px;
+}
+
+.next-div .under {
+    margin-left: 36px;
+    margin-bottom: 30px;
+}
+
+.next-div .unblue {
+    margin-left: 21px;
+    margin-bottom: 30px;
+}
+
+.next-div .right {
+    margin-left: 64px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 140px;
+}
+
+.box1 a {
+    display: block;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 25px;
+    color: #1d6dc3;
+    margin-top: 157px;
+    margin-bottom: 23px;
+}
+
+.box1 h1 {
+    width: 704px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 70px;
+    color: #000;
+    margin-bottom: 34px;
+}
+
+.box1 p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 64px;
+}
+
+.box1 button {
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    background: #1d68bf;
+    border: none;
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+}
+
+.box2 {
+    margin-top: 119px;
+}
+
+.box2 img {
+    width: 796px;
+    height: 305px;
+    margin-bottom: 35px;
+}
+
+.our-product a {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 25px;
+    color: #1d6dc3;
+    display: block;
+    text-align: center;
+    margin-top: 134px;
+    margin-bottom: 15px;
+}
+
+.our-product h3 {
+    display: block;
+    width: 812px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+
+    margin-bottom: 89px;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    /* margin-left: 143px; */
+}
+
+.wrap .wrap-card {
+    width: 380px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.wrap-card img {
+    margin: 30px 93px 22px 63px;
+}
+.wrap-card .kaska {
+    margin-bottom: 36px;
+}
+.wrap-card h5 {
+    width: 315px;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-family: var(--third-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.wrap-card p {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 11px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #808080;
+}
+
+.wrap-card .number {
+    margin-left: 32px;
+    margin-right: 32px;
+    font-family: var(--third-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    text-decoration: line-through;
+    color: #808080;
+}
+
+.wrap-card .number2 {
+    margin-left: 32px;
+    margin-right: 32px;
+    font-family: var(--third-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    text-decoration: line-through;
+    color: #808080;
+}
+.wrap-card .price {
+    font-family: var(--third-family);
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 120%;
+    color: #1d68bf;
+    display: block;
+}
+
+.wrap-card .number {
+    text-decoration: line-through;
+}
+.wrap-card .bag {
+    margin: 357px 25px 34px 310px;
+}
