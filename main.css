@@ -187,6 +187,7 @@ header {
 }
 
 .next-div {
+    display: block;
     margin-bottom: 119px;
 }
 
@@ -292,7 +293,6 @@ header {
     display: flex;
     align-items: center;
     gap: 40px;
-    /* margin-left: 143px; */
 }
 
 .wrap .wrap-card {
@@ -305,9 +305,11 @@ header {
 .wrap-card img {
     margin: 30px 93px 22px 63px;
 }
+
 .wrap-card .kaska {
     margin-bottom: 36px;
 }
+
 .wrap-card h5 {
     width: 315px;
     margin-left: 32px;
@@ -334,6 +336,7 @@ header {
 .wrap-card .number {
     margin-left: 32px;
     margin-right: 32px;
+    margin-bottom: 0;
     font-family: var(--third-family);
     font-weight: 600;
     font-size: 18px;
@@ -352,6 +355,7 @@ header {
     text-decoration: line-through;
     color: #808080;
 }
+
 .wrap-card .price {
     font-family: var(--third-family);
     font-weight: 600;
@@ -364,6 +368,193 @@ header {
 .wrap-card .number {
     text-decoration: line-through;
 }
+
+.wrap-card .foot {
+    height: 5px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+}
+
 .wrap-card .bag {
-    margin: 357px 25px 34px 310px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.ourcustumer {
+    max-width: 1920px;
+    height: 800px;
+    width: 100%;
+    background: #081420;
+    padding-top: 109px;
+    margin: auto;
+}
+
+.centercus {
+    margin: 0;
+}
+
+.ourcustumer .container {
+    text-align: center;
+}
+
+.centercus a {
+    top: 51px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 25px;
+    color: #1d6dc3;
+}
+
+.centercus h2 {
+    margin-top: 12px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    width: 835px;
+}
+
+.wrapper {
+    max-width: 1640px;
+    width: 100%;
+    margin-top: 142px;
+    margin-bottom: 159px;
+}
+
+.masage {
+    width: 520px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: -10px 30px 60px 0 rgba(29, 109, 195, 0.25);
+    background: #1d6dc3;
+    position: relative;
+}
+
+.masage img {
+    position: absolute;
+    display: flex;
+    top: -75px;
+}
+
+.masage p {
+    width: 410px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 92px;
+    margin-bottom: 29px;
+    margin-left: 40px;
+}
+
+.masage h4 {
+    margin-left: 40px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
+
+.masage span {
+    width: 220px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 40px;
+    margin-bottom: 37px;
+}
+
+
+.blog {
+    max-width: 1920px;
+    height: 800px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.blog a {
+    display: block;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 25px;
+    color: #1d6dc3;
+    margin-bottom: 15px;
+    margin-top: 83px;
+}
+
+.blog h2 {
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+}
+
+.blog .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+}
+
+.news {
+    position: relative;
+}
+
+.comment {
+    position: absolute;
+    width: 425px;
+    height: 120px;
+    border-radius: 10px;
+    bottom: 39px;
+    left: 48px;
+    background: #fff;
+}
+
+.comment span {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 12px;
+    color: #979797;
+    display: flex;
+    margin-top: 27px;
+    margin-left: 32px;
+}
+
+.comment p {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+    display: flex;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+.comment:hover {
+    background-color: #1d6dc3;
+}
+
+.blog button {
+    position: absolute;
+    border-radius: 50px;
+    width: 257px;
+    height: 65px;
+    background: #fff;
+    top: 751px;
+    left: 829px;
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 15px;
+    color: #1d68bf;
+    text-align: center;
 }
